@@ -30,6 +30,18 @@ $light-color: #fefefe;
   }
 }
 
+.text-light {
+  color: $light-color;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /*MIXINS*/
 @mixin flex-display($display, $justify-content, $align-items) {
   display: $display;
